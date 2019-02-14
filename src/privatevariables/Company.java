@@ -18,11 +18,11 @@ public class Company {
 				+ person1.getGender());
 
 		ContactInformation contactInfo = new ContactInformation();
-		contactInfo.setEmail("halilkirazz@gmail.com");
-		contactInfo.setCellPhone("6143778138");
+		contactInfo.setEmail("abc@gmail.com");
+		contactInfo.setCellPhone("1234567890");
 		System.out.println("EMAIL: " + contactInfo.getEmail() + "\n" + "PHONE NUMBER: " + contactInfo.getCellPhone());
 
-		ContactInformation contactInfo2 = new ContactInformation("5055850161", "kiraz.halil@hotmail.com");
+		ContactInformation contactInfo2 = new ContactInformation("5055850161", "abc@hotmail.com");
 		System.out.println("EMAIL: " + contactInfo2.getEmail() + "\n" + "PHONE NUMBER: " +
 				contactInfo2.getCellPhone());
 		
