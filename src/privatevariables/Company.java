@@ -7,10 +7,10 @@ public class Company {
 
 		Person person1 = new Person();
 		person1.setSsn("123-45-6789");
-		person1.setFirstName("Halil");
-		person1.setLastName("Kiraz");
+		person1.setFirstName("ASD");
+		person1.setLastName("GDF");
 		person1.setMiddleName("Enrique");
-		person1.setDateOfBirth("06/18/1989");
+		person1.setDateOfBirth("11/18/1990");
 		person1.setGender('M');
 
 		System.out.println(person1.getFirstName() + " " + person1.getMiddleName() + " " + person1.getLastName() + "\n"
